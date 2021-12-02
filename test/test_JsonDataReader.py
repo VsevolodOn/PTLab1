@@ -5,6 +5,7 @@ from JsonDataReader import JsonDataReader
 
 
 class TestJsonDataReader:
+
     @pytest.fixture()
     def file_and_data_content(self) -> Tuple[str, DataType]:
         text = '{ "Иванов Константин Дмитриевич": {\n' + \
