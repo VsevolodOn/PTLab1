@@ -1,6 +1,7 @@
 from TextDataReader import TextDataReader
 from JsonDataReader import JsonDataReader
 from CalcRating import CalcRating
+from GetStudents3Q import GetStudents3Q
 import argparse
 import sys
 import os
@@ -28,6 +29,8 @@ def main():
     print("Students: ", students)
     rating = CalcRating(students).calc()
     print("Rating: ", rating)
+    students3q = GetStudents3Q(rating).get()
+    print("Students 3Q: ", students3q)
 
 
 if __name__ == "__main__":
