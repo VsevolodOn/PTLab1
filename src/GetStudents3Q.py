@@ -1,6 +1,5 @@
 import numpy as np
 from typing import Dict, List
-from Types import DataType
 
 RatingType = Dict[str, float]
 
