@@ -28,7 +28,7 @@ class TestStudents3Q():
         assert input_data[0] == rating_scores.rating
 
     def test_get(self, input_data:
-                 Tuple[DataType, RatingsType]) -> None:
+                 Tuple[RatingsType, RatingsType]) -> None:
         student_list = GetStudents3Q(input_data[0]).get()
         for student in student_list.keys():
             rating = student_list[student]
