@@ -1,4 +1,4 @@
-![example workflow](https://github.com/Vsevolearn/PTLab1/actions/workflows/python-package-conda.yml/badge.svg)
+[![Build Status](https://app.travis-ci.com/VsevolodOn/PTLab1.svg?branch=main)](https://app.travis-ci.com/VsevolodOn/PTLab1)
 # Лабораторная 1 по дисциплине "Технологии программирования"
 **Тема:** Знакомство с системой контроля версий Git и инструментом CI/CD Travis CI
 
