@@ -17,7 +17,7 @@ class TestStudents3Q():
             'Петров4 Петр Петрович': 91.66666666666667
         }
         student_list: RatingsType = {
-            'Иванов Иван Иванович': 82.0,
+            'Иванов Иван Иванович': 81.0,
             'Петров3 Петр Петрович': 89.33333333333333
         }
         return rating_scores, student_list
