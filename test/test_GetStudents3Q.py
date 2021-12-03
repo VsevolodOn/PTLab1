@@ -8,7 +8,7 @@ RatingsType = Dict[str, float]
 
 class TestStudents3Q():
     @pytest.fixture()
-    def input_data(self) -> Tuple[DataType, RatingsType]:
+    def input_data(self) -> Tuple[RatingsType, RatingsType]:
         rating_scores: RatingsType = {
             'Иванов Иван Иванович': 82.0,
             'Петров1 Петр Петрович': 63.333333333333336,
