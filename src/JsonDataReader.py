@@ -11,6 +11,7 @@ class JsonDataReader(DataReader):
     def read(self, path: str) -> DataType:
         with open(path, encoding='utf-8') as json_file:
             data = json.load(json_file)
+
             for key in data:
                 self.students[key] = []
                 for subj in data[key]:
